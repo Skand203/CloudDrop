@@ -1,0 +1,26 @@
+# AWS credentials
+.aws/
+credentials.csv
+
+# Environment variables
+.env
+.env.*
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+
+# VS Code
+.vscode/
+
+# OS files
+Thumbs.db
+.DS_Store
+
+# Private keys
+*.pem
+*.key
+
+# Logs
+*.log

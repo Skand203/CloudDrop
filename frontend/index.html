@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CloudDrop</title>
+
+    <link rel = "stylesheet" href = "styles.css"/>
+</head>
+
+<body>
+    <script src = "script.js"></script>
+
+<div class="container">
+
+    <h1>CloudDrop</h1>
+
+    <p class="subtitle">
+        Serverless file storage using AWS
+    </p>
+
+    <input type="file" id="fileInput">
+
+    <br>
+
+    <button onclick="uploadFile()">
+        Upload File
+    </button>
+
+    <p id="status"></p>
+
+    <hr>
+
+<h2>Your Files</h2>
+
+<div id="fileList">
+    <p>Loading files...</p>
+</div>
+
+</div>
+
+</body>
+</html>
